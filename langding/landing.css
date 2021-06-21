@@ -1,0 +1,62 @@
+body {
+    overflow-x: hidden;
+}
+.logo-logo {
+    width: 10%;
+    height: 10%;
+    transform: translate(120%, 30%);
+}
+.text {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height:1.2;
+    font-weight: thin;
+    transform: translate(0%, 360%);
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+.number-phone {
+    display: flex;
+    flex-direction: row;
+    transform: translate(700%, -370%);
+}
+.number {
+    height: 20px;
+    width: 20px;
+}
+.phone {
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.button {
+    text-align: center;
+    margin: 17%;
+}
+.click {
+    font-size: 15px;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;    
+    padding: 10px 40px ;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    transform: translate(0% 50%);
+}
+.click:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+.click:active {
+    background-color: black;
+    transform: translateY(4px);
+}
